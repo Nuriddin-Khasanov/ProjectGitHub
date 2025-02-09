@@ -12,8 +12,9 @@ namespace ProjectGitHub
         {
             int a = 10;
             int b = 20;
-            int c = a + b;
-            Console.WriteLine("Sum of a and b is: " + c);
+            int s = 30;
+            int c = a + b + s;
+            Console.WriteLine("Sum of a, b and s is: " + c);
             Console.ReadLine();
 
         }
