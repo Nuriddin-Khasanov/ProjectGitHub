@@ -11,7 +11,7 @@ namespace ProjectGitHub
         static void Main(string[] args)
         {
 
-            for(int i = 0; i < 10; i++)
+            foreach (int i in Enumerable.Range(0, 10))
             {
                 Console.WriteLine("Hello World!");
             }
