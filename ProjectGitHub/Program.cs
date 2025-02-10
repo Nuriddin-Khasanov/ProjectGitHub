@@ -10,11 +10,13 @@ namespace ProjectGitHub
     {
         static void Main(string[] args)
         {
-
-            foreach (int i in Enumerable.Range(0, 10))
-            {
-                Console.WriteLine("Hello World!");
-            }
+            int a = 10;
+            int b = 20;
+            int c = a + b;
+            Console.WriteLine("Sum of a and b is: " + c);
+            Console.ReadLine();
+            gvug
+                ihb
 
         }
     }
